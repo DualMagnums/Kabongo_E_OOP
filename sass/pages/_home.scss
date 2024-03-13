@@ -1,0 +1,61 @@
+@use '../abstracts/variables' as b;
+
+
+ul {
+  list-style: none;
+}
+
+.stats-list{
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media screen and (min-width:768px){
+  
+  select{
+    width: 300px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+}
+
+
+@media screen and (min-width:1200px){
+
+  .banner-title{
+    height: 230px;
+  }
+
+  #main-title{
+    font-size: 50px;
+  }
+
+  
+  select{
+    width: 300px;
+    font-size: 19px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width:1920px){
+
+  .banner-title{
+    height: 260px;
+  }
+
+  #main-title{
+    font-size: 70px;
+  }
+
+  
+  select{
+    width: 460px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+
+
