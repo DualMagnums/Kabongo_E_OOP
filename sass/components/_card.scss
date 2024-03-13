@@ -1,0 +1,154 @@
+.image-player{
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.image-team{
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+
+.player-box{
+    width: 230px;
+}
+
+
+.image_box{
+    
+
+    
+background: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
+
+
+    
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.box-name{
+    width: 100%;
+    color: #f90;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.stats-list{
+    padding: 10px;
+    font-weight: light;
+}
+
+.stats-list span{
+    margin-bottom: 6px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+}
+
+.stats-list span:first-child{
+    font-size: 20px;
+    color: #ECF2FF;
+}
+
+.stats-list span:last-child{
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+@media screen and (min-width:768px){
+    .players{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 100%;
+         justify-content: center;
+      }
+
+
+    .player-box{
+        margin: 20px;
+        width: calc(100% / 2.5);
+    }
+
+    .image-team{
+        width: 80px;
+    }
+
+    .image-player{
+        width: 140px;
+    }
+
+}
+
+
+
+@media screen and (min-width:1200px){
+
+    .image-team{
+        width: 110px;
+    }
+
+    .image-player{
+        width: 160px;
+    }
+
+    .player-box{
+        margin: 20px;
+        width: calc(100% / 4);
+    }
+
+    .box-name{
+        font-size: 25px;
+    }
+    .stats-list span{
+        font-size: 17px;
+    }
+
+    .stats-list span:first-child{
+        font-size: 27px;
+    }
+
+}
+
+
+
+@media screen and (min-width:1920px){
+    .image-team{
+        width: 140px;
+    }
+
+    .image-player{
+        width: 200px;
+    }
+
+    .player-box{
+        margin: 20px;
+        width: calc(100% / 5);
+    }
+
+    .box-name{
+        font-size: 31px;
+    }
+    .stats-list span{
+        font-size: 21px;
+    }
+
+    .stats-list span:first-child{
+        font-size: 32px;
+    }
+
+}
